@@ -1,5 +1,10 @@
-/** @jsxImportSource @emotion/react */
+/** @jsxImportSource @emotion/core */
+import { Container, Text } from "basis";
 
 export default function RequestLetter() {
-  return <p css={{ color: "red" }}>Hello world</p>;
+  return (
+    <Container hasBreakpointWidth>
+      <Text>Request a letter</Text>
+    </Container>
+  );
 }

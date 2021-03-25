@@ -1,19 +1,14 @@
-import { Global, css } from "@emotion/react";
+import { BasisProvider, defaultTheme } from "basis";
+import RequestLetter from "./RequestLetter";
 import "@fontsource/montserrat";
 import "@fontsource/roboto";
-import RequestLetter from "./RequestLetter";
 
 export default function App() {
   return (
     <div>
-      <Global
-        styles={css`
-          body {
-            margin: 0;
-          }
-        `}
-      />
-      <RequestLetter />
+      <BasisProvider theme={defaultTheme}>
+        <RequestLetter />
+      </BasisProvider>
     </div>
   );
 }

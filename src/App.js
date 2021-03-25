@@ -1,7 +1,7 @@
-import { Global, css } from "@emotion/react";
+import { Global, css } from "@emotion/core";
+import RequestLetter from "./RequestLetter";
 import "@fontsource/montserrat";
 import "@fontsource/roboto";
-import RequestLetter from "./RequestLetter";
 
 export default function App() {
   return (

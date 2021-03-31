@@ -52,7 +52,7 @@ export default function RequestLetter() {
       </Container>
       <Container hasBreakpointWidth padding="8 0">
         <Form initialValues={initialValues}>
-          <Stack gap="8" width="100%" width-xs="400">
+          <Stack gap="8" width="100%" width-xs="300">
             <RadioGroup
               name="letterType"
               label="Letter type"

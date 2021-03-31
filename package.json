@@ -1,7 +1,6 @@
 {
   "name": "basis-experiment",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@emotion/core": "10.1.1",
     "@fontsource/montserrat": "4.2.2",
@@ -37,5 +36,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "private": true,
+  "license": "MIT"
 }

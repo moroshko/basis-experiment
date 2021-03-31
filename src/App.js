@@ -12,8 +12,16 @@ export default function App() {
     <div>
       <Global
         styles={css`
-          body {
+          body,
+          html {
             margin: 0;
+            padding: 0;
+            font-family: montserrat;
+          }
+          *,
+          *::before,
+          *:after {
+            box-sizing: border-box;
           }
         `}
       />

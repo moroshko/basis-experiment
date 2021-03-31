@@ -1,5 +1,16 @@
 /** @jsxImportSource @emotion/core */
+import { Header } from "./components/Header";
+import { Heading } from "./components/Heading";
+import { Footer } from "./components/Footer";
+import { Form } from "./components/Form";
 
 export default function RequestLetter() {
-  return <p css={{ color: "red" }}>Hello world</p>;
+  return (
+    <>
+      <Header />
+      <Heading />
+      <Form />
+      <Footer />
+    </>
+  );
 }

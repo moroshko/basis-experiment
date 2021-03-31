@@ -1,6 +1,6 @@
 # Basis Experiment
 
-Your task is to implement the "Request a letter" UI. Designs can be found [here](https://github.com/moroshko/basis-experiment/tree/master/designs).
+Your task is to implement the "Request a letter" UI. Designs and logo can be found [here](https://github.com/moroshko/basis-experiment/tree/master/designs).
 
 Things to keep in mind:
 

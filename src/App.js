@@ -1,4 +1,5 @@
 import { Global, css } from "@emotion/core";
+import { BasisProvider, defaultTheme } from "basis";
 import RequestLetter from "./RequestLetter";
 import "@fontsource/montserrat";
 import "@fontsource/montserrat/600.css";
@@ -17,7 +18,9 @@ export default function App() {
           }
         `}
       />
-      <RequestLetter />
+        <BasisProvider theme={defaultTheme}>
+            <RequestLetter />
+        </BasisProvider>
     </div>
   );
 }
